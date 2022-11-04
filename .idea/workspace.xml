@@ -4,30 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="068ebd50-3b60-48c4-9d44-1c167583b1db" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/hello_drf/book/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello_drf/book/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello_drf/book/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello_drf/book/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello_drf/book/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello_drf/book/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello_drf/book/serializer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello_drf/book/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello_drf/book/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello_drf/book/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/drf-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/drf-project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello_drf/hello_drf/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello_drf/hello_drf/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello_drf/hello_drf/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello_drf/hello_drf/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello_drf/hello_drf/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello_drf/hello_drf/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello_drf/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello_drf/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mst-shop-seo/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../mst-shop-seo/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mst-shop-seo/mst/logs/mst.log" beforeDir="false" afterPath="$PROJECT_DIR$/../mst-shop-seo/mst/logs/mst.log" afterDir="false" />
-    </list>
+    <list default="true" id="068ebd50-3b60-48c4-9d44-1c167583b1db" name="变更" comment="变更" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,15 +38,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/bigfu/mst-shop-seo",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/bigfu/mst-shop-seo&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="manage" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="drf-project" />
