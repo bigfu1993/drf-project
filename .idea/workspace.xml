@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="068ebd50-3b60-48c4-9d44-1c167583b1db" name="变更" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/drf-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/drf-project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
@@ -14,6 +15,9 @@
       <change beforePath="$PROJECT_DIR$/../mst-shop-seo/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../mst-shop-seo/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mst-shop-seo/mst/logs/mst.log" beforeDir="false" afterPath="$PROJECT_DIR$/../mst-shop-seo/mst/logs/mst.log" afterDir="false" />
     </list>
+=======
+    <list default="true" id="068ebd50-3b60-48c4-9d44-1c167583b1db" name="变更" comment="变更" />
+>>>>>>> f6d5ff257a48cfa0aaaad163a289574bca0ddcb3
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +51,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
@@ -54,8 +59,17 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "last_opened_file_path": "C:/Users/bigfu/Desktop/阶段4-web开发/代码以及其他/6-美多商城前台",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+=======
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/bigfu/mst-shop-seo&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+>>>>>>> f6d5ff257a48cfa0aaaad163a289574bca0ddcb3
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="manage" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="drf-project" />
