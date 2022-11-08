@@ -17,19 +17,24 @@ class BooksView(APIView):
 
 class BookView(APIView):
     def get(self,request,book_id):
+        print(book_id,'000')
         book = BookInfo.objects.get(id=book_id)
         ser = BookInfoSerializer(book)
         return Response(ser.data)
     def post(self,request):
-        print(request.data,'000')
-        print(request.query_params['key'],'111')
+        print(request.data,request.query_params['key'],'000')
         book = request.data
         ser = BookInfoSerializer(data=book)
         ser.is_valid(raise_exception=True)
         ser.save()
         return Response(ser.data)
-    def put(self,request):
-        print(request,'000')
+    def put(self,request,book_id):
+        print(request.data,'000')
+        book = BookInfo.objects.get(id=book_id)
+        data = request.data
+        ser = BookInfoSerializer(book,data=data)
+        ser.is_valid(raise_exception=True)
+        ser.save()
         return JsonResponse({'success':'true'})
 
 
