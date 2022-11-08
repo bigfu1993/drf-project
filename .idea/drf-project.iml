@@ -7,5 +7,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="mst-shop-seo" />
+    <orderEntry type="module" module-name="6-美多商城前台" />
   </component>
 </module>
