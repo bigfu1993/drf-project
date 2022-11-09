@@ -19,13 +19,13 @@ class BookInfoSerializer(serializers.Serializer):
     def create(self, validated_data):
         return BookInfo.objects.create(**validated_data)
     def update(self, instance, validated_data):
-        instance.readcount = validated_data.get('readcount',instance.readcount)
-        instance.name = validated_data.get('name', instance.name)
+        instance.name = validated_data['name']
+        instance.readcount = validated_data['readcount']
         instance.save()
         return instance
 class PersonInfoSerializer(serializers.ModelSerializer):
     class Meta:
         model = PeopleInfo
         # fields = '__all__'
-        # fields = ('id','name','book')
-        exclude = ('id')
+        fields = ('name','pub_date')
+        # exclude = ('id')

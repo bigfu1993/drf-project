@@ -19,5 +19,5 @@ from django.conf.urls import url,include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    url(r'^', include(('book.urls','book'), namespace='book')), # 收货地址
+    url(r'^', include(('book.urls','book'), namespace='book')),
 ]

@@ -8,5 +8,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="mst-shop-seo" />
     <orderEntry type="module" module-name="6-美多商城前台" />
+    <orderEntry type="module" module-name="7-DRF框架" />
   </component>
 </module>
