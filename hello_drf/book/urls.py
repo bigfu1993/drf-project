@@ -1,5 +1,5 @@
 from django.conf.urls import url
-from . import views,apiview,genericapiview,mixinview,mulitimixinview
+from . import views,apiview,genericapiview,mixinview,mulitimixinview,viewsetview
 
 urlpatterns = [
     # url(r'^books/$', views.BooksView.as_view()),
@@ -13,4 +13,6 @@ urlpatterns = [
     url(r'^books_mixinview/(?P<pk>\d+)$', mixinview.BookInfoView.as_view()),
     url(r'^books_mulitimixinview/$', mulitimixinview.BooksInfoView.as_view()),
     url(r'^books_mulitimixinview/(?P<pk>\d+)$', mulitimixinview.BookInfoView.as_view()),
+    url(r'^books_viewsetview/$', viewsetview.BooksInfoView.as_view()),
+    url(r'^books_viewsetview/(?P<pk>\d+)$', viewsetview.BookInfoView.as_view()),
 ]
