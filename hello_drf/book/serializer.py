@@ -20,7 +20,7 @@ class BookInfoSerializer(serializers.Serializer):
         return BookInfo.objects.create(**validated_data)
     def update(self, instance, validated_data):
         instance.name = validated_data['name']
-        instance.readcount = validated_data['readcount']
+        instance.pub_date = validated_data['pub_date']
         instance.save()
         return instance
 class PersonInfoSerializer(serializers.ModelSerializer):
