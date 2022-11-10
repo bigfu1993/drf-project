@@ -13,6 +13,6 @@ urlpatterns = [
     url(r'^books_mixinview/(?P<pk>\d+)$', mixinview.BookInfoView.as_view()),
     url(r'^books_mulitimixinview/$', mulitimixinview.BooksInfoView.as_view()),
     url(r'^books_mulitimixinview/(?P<pk>\d+)$', mulitimixinview.BookInfoView.as_view()),
-    url(r'^books_viewsetview/$', viewsetview.BooksInfoView.as_view()),
-    url(r'^books_viewsetview/(?P<pk>\d+)$', viewsetview.BookInfoView.as_view()),
+    url(r'^books_viewsetview/$', viewsetview.BooksInfoView.as_view({'get': 'list', 'post': 'create'})),
+    # url(r'^books_viewsetview/(?P<pk>\d+)$', viewsetview.BookInfoView.as_view({'put': 'update','get':'retrieve','delete':'destroy'})),
 ]
